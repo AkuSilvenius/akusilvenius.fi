@@ -1,14 +1,26 @@
 package main
 
 import (
-	"github.com/gin-gonic/contrib/static"
-	"github.com/gin-gonic/gin"
+	"log"
+	"net/http"
+	"time"
+
+	"github.com/gorilla/mux"
 )
 
 func main() {
-	router := gin.Default()
+	r := mux.NewRouter()
 
-	// Serve frontend static files
-	router.Use(static.Serve("/", static.LocalFile("./client/build", true)))
-	router.Run(":5000")
+	r.PathPrefix("/res/").Handler(http.StripPrefix("/res/", http.FileServer(http.Dir("./res"))))
+	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./client/build")))
+
+	srv := &http.Server{
+		Handler: r,
+		Addr:    "127.0.0.1:5000",
+		// Good practice: enforce timeouts for servers you create!
+		WriteTimeout: 15 * time.Second,
+		ReadTimeout:  15 * time.Second,
+	}
+
+	log.Fatal(srv.ListenAndServe())
 }
