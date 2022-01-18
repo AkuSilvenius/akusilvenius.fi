@@ -1,0 +1,11 @@
+section {
+    margin: 5% 5% 0 5%;
+    font-size: 100px;
+    scroll-snap-align: center;
+    transition: opacity 0.3s ease-out;
+    /* opacity: 0; */
+}
+
+.active-card {
+    opacity: 1;
+}

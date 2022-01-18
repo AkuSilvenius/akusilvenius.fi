@@ -1,0 +1,34 @@
+{
+    "welcome": "Hello from the Main.js page",
+    "headernavi": {
+        "buttons": {
+            "Bio": "About",
+            "Resume": "Resume",
+            "TechSkills": "Skills",
+            "Hobby": "Hobbies"
+        }
+    },
+    "sections": {
+        "AboutMe": {
+            "Title": "Aku Silvenius",
+            "TitleSub": "A Full Stack Developer",
+            "welcome": "Greetings 👋🏼 I'm Aku, a 28 year old guy living in the wonderful city of Helsinki, Finland 🇫🇮.",
+            "welcome2": "My current job at IBM is a combination of an Application Developer and a Technical Consultant 👨🏻‍💻 in that role I can put my technical expertise into good use by listening to client needs and turning those into viable solutions and implementations.",
+            "welcome3": "I absolutely love technical challenges, and being able to utilise cutting-edge technologies to solve real life problems is what pulls me up from bed every single day.",
+            "welcome4": "Whoever coined the phrase <i>\"Anyone who stops learning, whether at 20 or 80, is old. Anyone who keeps learning is young.\"</i> inspires me. I'm always willing to learn new and challenge the old ways of doing for a better end result.",
+            "DevProfile": "I consider myself a full stack developer. During my 4+ years in the industry, I've gained good experience in multiple areas. This charts shows my main skills in the different areas I would consider a full stack dev to work in.",
+            "footer": {
+                "cr": "Developed with ❤️ © Aku Silvenius"
+            }
+        },
+        "Resume": {
+            "overview": "This will be the overview of my resume"
+        },
+        "Hobby": {},
+        "TechSkills": {},
+        "Contact": {
+            "name": "Aku Silvenius",
+            "title": "Full Stack Developer"
+        }
+    }
+}

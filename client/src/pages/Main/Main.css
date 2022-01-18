@@ -1,0 +1,138 @@
+.hide {
+    opacity: 0;
+}
+
+.mainContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.scrollDisabled {
+    overflow: hidden;
+}
+
+.mainContent {
+    overflow: auto;
+}
+
+.mainContent::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.sideScrollContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentContainer p {
+    color: #000c;
+}
+
+#header-profile-pic {
+    height: 2rem;
+    width: 2rem;
+}
+
+.header-title-dark,
+.header-title-light {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.bx--header { border: none; }
+
+.lang-switcher {
+    right: 1rem;
+    position: fixed;
+    z-index: 101;
+    margin: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.lang-switcher button {
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    transition: all 0.1s;
+}
+
+.lang-switcher button:active {
+    transform: scale(0.95);
+}
+
+.bare-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.bare-btn:focus-visible {
+    outline: none;
+}
+
+.headerNaviElement {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+#headerNaviPadding {
+    transition: all 0.2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+    /* background-color: tomato; */
+    flex: 16;
+}
+
+.headerNaviElement button {
+    height: 3rem;
+    width: 100%;
+}
+
+.headerNaviElement button svg {
+    fill: #f4f4f4;
+}
+
+.headerNaviElementTitle {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #F4F4F4;
+    letter-spacing: -0.5rem;
+}
+
+span[id^="headerNavi"] {
+    display: none;
+}
+
+.subPageMount {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.subPageUnMount {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#scrollContainer {
+    height: 100%;
+}
+
+#scroll {
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.5s ease-in-out;
+}

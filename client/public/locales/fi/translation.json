@@ -1,0 +1,34 @@
+{
+    "welcome": "Morjens Main.js sivulta",
+    "headernavi": {
+        "buttons": {
+            "Bio": "Minä",
+            "Resume": "Ansioluettelo",
+            "TechSkills": "Taidot",
+            "Hobby": "Harrastuksia"
+        }
+    },
+    "sections": {
+        "AboutMe": {
+            "Title": "Aku Silvenius",
+            "TitleSub": "A Full Stack Developer",
+            "welcome": "Hellurei 👋🏼 Mä olen Aku, 28-vuotias Helsingissä 🇫🇮 asusteleva kaveri.",
+            "welcome2": "Nykyinen työni IBM:llä on sovelluskehittäjän ja teknisen konsultin yhdistelmä 👨🏻‍💻 jossa pääsen kuuntelemaan asiakkaiden tarpeita ja kääntämään ne toteutuskelpoisiksi ratkaisuiksi teknisten taitojeni avulla.",
+            "welcome3": "Rakastan teknisiä haasteita, ja se, että pystyn hyödyntämään huipputeknologioita oikean maailman ongelmiin vetää minut ylös sängystä joka päivä.",
+            "welcome4": "Kuka tahansa loikaan sanonnan <i>\"Anyone who stops learning, whether at 20 or 80, is old. Anyone who keeps learning is young.\"</i> inspiroi minua. Olen aina halukas oppimaan uutta ja haastamaan vanhoja näkemyksiä paremman lopputuloksen saavuttamiseksi.",
+            "DevProfile": "Pidän itseäni full stack kehittäjänä. Olen ollut alalla reilut 4 vuotta ja sinä aikana olen päässyt kerryttämään hyvää kokemusta monella alueella. Tässä kuviossa osaamiani ohjelmointikieliä ja frameworkeja eri alueilla joiden kuvittelen kuuluvan full stack kehittäjän profiiliin.",
+            "footer": {
+                "cr": "Koodattu ❤️:lla © Aku Silvenius"
+            }
+        },
+        "Resume": {
+            "overview": "Tähän tulee ansioluettelon yleiskatsaus"
+        },
+        "Hobby": {},
+        "TechSkills": {},
+        "Contact": {
+            "name": "Aku Silvenius",
+            "title": "Full Stack Developer"
+        }
+    }
+}

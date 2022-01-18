@@ -10,6 +10,7 @@ import (
 
 func main() {
 	r := mux.NewRouter()
+	r.Use(limit)
 
 	r.PathPrefix("/res/").Handler(http.StripPrefix("/res/", http.FileServer(http.Dir("./res"))))
 	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./client/build")))

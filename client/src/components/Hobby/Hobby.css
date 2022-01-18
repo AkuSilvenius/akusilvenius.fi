@@ -1,0 +1,21 @@
+#Hobby {
+    height: 100%;
+}
+
+#Hobby img {
+    border-radius: 25px;
+}
+
+@media (min-width: 1200px) {
+
+    #Hobby-1,
+    #Hobby-2 {
+        flex-direction: row;
+    }
+
+    #cyclingImg, #coffeeImg {
+        width: 50%;
+        flex: 1;
+        margin: 0 2% 0 0;
+    }
+}

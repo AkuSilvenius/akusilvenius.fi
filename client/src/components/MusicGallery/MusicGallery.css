@@ -1,0 +1,30 @@
+.music-gallery {
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.iframe-container {
+    scroll-snap-align: start;
+}
+
+.music-embed {
+    margin: .5rem;
+    margin-bottom: 0;
+    width: auto;
+    border-radius: 15px;
+}
+
+.track-links {
+    display: flex;
+    justify-content: center;
+}
+
+.track-link {
+    display: flex;
+    margin: 0 0.5rem;
+}
+
+.track-link img {
+    height: 24px;
+}
